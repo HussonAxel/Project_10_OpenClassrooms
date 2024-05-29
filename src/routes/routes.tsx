@@ -1,7 +1,7 @@
-import { AboutPage } from "../pages/AboutPage";
-import { ErrorPage } from "../pages/ErrorPage";
-import { FicheLogementPage } from "../pages/FicheLogementPage";
-import { HomePage } from "../pages/HomePage";
+import { AboutPage } from "@pages/AboutPage";
+import { ErrorPage } from "@pages/ErrorPage";
+import { FicheLogementPage } from "@pages/FicheLogementPage";
+import { HomePage } from "@pages/HomePage";
 
 import { Route, Routes, Navigate } from "react-router-dom";
 

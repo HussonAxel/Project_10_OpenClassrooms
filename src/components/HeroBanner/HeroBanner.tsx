@@ -7,7 +7,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({ title, url, alt }) => {
         <img
         src={url}
         alt={alt}
-        className={`HeroBanner--picture`}
+        className="HeroBanner--picture"
         />
         <p className="HeroBanner--title">{title}</p>
     </div>

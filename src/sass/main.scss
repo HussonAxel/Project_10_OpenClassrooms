@@ -1,6 +1,10 @@
+@import "./abstract/variables";
 @import "./abstract/mixins";
-@import "./components/index";
+
+
 @import "./base/typography";
-
 @import "./base/reset";
+@import "./base/base";
 
+
+@import "./components/index";

@@ -1,8 +1,9 @@
+import Logement from "@components/Logement/Logement";
+
 export const FicheLogementPage = () => {
   return (
-    <div>
-      <h1>Fiche Logement</h1>
-      <p>This is the fiche logement page</p>
-    </div>
+    <>
+      <Logement id={""} cover={""} title={""} description={""} location={""} price={0} rating={0} maxTravelers={0} equipment={[]} pictures={[]} comments={[]} />
+    </>
   );
 };

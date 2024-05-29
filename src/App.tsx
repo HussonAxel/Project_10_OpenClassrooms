@@ -1,12 +1,12 @@
 import {RouteList} from "./routes/routes";
-// import Layout from "./components/Layout/Layout";
+import Layout from "./components/Layout/Layout";
 
 function App() {
   return (
     <div className="App">
-      {/* <Layout> */}
+      <Layout>
       <RouteList />
-      {/* </Layout> */}
+      </Layout>
     </div>
   );
 }

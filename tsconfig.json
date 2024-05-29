@@ -27,6 +27,7 @@
       "@pages/*": ["./src/pages/*"],
       "@routes/*": ["./src/routes/*"],
       "@sass/*": ["./src/sass/*"],
+      "@assets/*": ["./src/assets/*"],
       "@utils/*": ["./src/utils/*"],
       "@data/*": ["./src/data/*"]
     },

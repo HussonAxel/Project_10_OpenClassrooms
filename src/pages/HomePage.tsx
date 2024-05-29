@@ -1,18 +1,18 @@
-import HeroBanner from '../components/HeroBanner/HeroBanner';
-import LocationGalery  from '../components/LocationCardGrid/LocationCardGrid';
+import HeroBanner from "@components/HeroBanner/HeroBanner";
+import LocationCardGrid from "@components/LocationCardGrid/LocationCardGrid";
 
 
-import banner_home from '../assets/banner_home.png';
+import bannerHomePicture from "@assets/banner_home.png";
 
 export const HomePage = () => {
   return (
     <>
       <HeroBanner
         title={"Chez vous, partout et ailleurs"}
-        url={banner_home}
+        url={bannerHomePicture}
         alt={"Bannière de la page d'accueil"}
       />
-      <LocationGalery />
+      <LocationCardGrid />
     </>
   );
 };

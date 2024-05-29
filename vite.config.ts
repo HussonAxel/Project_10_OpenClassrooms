@@ -17,6 +17,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "@components": resolve(root, "components"),
+      "@assets": resolve(root, "assets"),
       "@pages": resolve(root, "pages"),
       "@routes": resolve(root, "routes"),
       "@sass": resolve(root, "sass"),
