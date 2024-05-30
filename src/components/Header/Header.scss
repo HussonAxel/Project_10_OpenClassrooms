@@ -34,8 +34,9 @@
 }
 
 li {
-  color: $primary;
+  color: black;
   margin: 0;
+  font-size: 24px;
 
   @include mobile {
     font-size: 14px;
@@ -49,5 +50,15 @@ li {
 
 .active {
   text-decoration: underline;
-  text-decoration-color: $primary;
+}
+
+.logo--header {
+  @include tablet {
+    width: 75%;
+    max-width: 500px;
+  }
+    @include mobile {
+    width: 75%;
+    max-width: 200px;
+  }
 }

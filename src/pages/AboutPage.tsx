@@ -6,7 +6,6 @@ export const AboutPage = () => {
   return (
     <>
       <HeroBanner
-        title={"Chez vous, partout et ailleurs"}
         url={banner_about}
         alt={"Bannière de la page d'accueil"}
       />

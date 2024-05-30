@@ -5,7 +5,7 @@ const Header: React.FC<HeaderProps> = ({logo, alt, links}) => {
   return (
     <nav className="navbar">
       <NavLink to={"/"}>
-        <img src={logo} alt={alt} />
+        <img src={logo} alt={alt} className="logo--header" />
       </NavLink>
       <ul className="listWrapper">
         {links.map((link) => (

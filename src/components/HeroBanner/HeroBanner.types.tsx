@@ -1,5 +1,5 @@
 export interface HeroBannerProps {
-  title: string;
+  title?: string;
   url: string;
   alt: string;
 }
