@@ -3,23 +3,24 @@
   justify-content: space-between;
   margin: 40px 100px;
 
-  @include mobile {
-    margin: 40px 30px;
-  }
-
-  @include tablet {
-    margin: 40px 50px;
+    @include mobile {
+    margin: 20px;
   }
 }
 
 .listWrapper {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  gap: 50px;
-
+  justify-content: right;
+  width: 100%;
+  gap: 60px;
+  @include tablet {
+    gap: 40px;
+  }
   @include mobile {
     gap: 25px;
+      width: 66%;
+
   }
 }
 
@@ -47,18 +48,17 @@ li {
   }
 }
 
-
 .active {
-  text-decoration: underline;
+  text-decoration: underline black;
 }
 
 .logo--header {
   @include tablet {
-    width: 75%;
+    width: 100%;
     max-width: 500px;
   }
-    @include mobile {
-    width: 75%;
-    max-width: 200px;
+  @include mobile {
+    width: 100%;
+    max-width: 145px;
   }
 }

@@ -10,6 +10,13 @@
   @include mobile {
     flex-direction: column;
   }
+  p {
+    color: black;
+  }
+
+  h1 {
+    font-weight: 500;
+  }
 }
 
 .listTagWrapper {
@@ -26,6 +33,8 @@
   border-radius: 10px;
   width: fit-content;
   padding: 5px 10px;
+  font-weight: 700;
+  font-size: 14px;
 }
 
 .hostWrapperInfo {
@@ -43,12 +52,19 @@
   > p {
     align-items: center;
     display: flex;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
     height: 66px;
     line-height: 142.6%;
     text-align: right;
-    width: 63px;
+    width: 80px;
+    color: $primary;
+
+    @include mobile {
+      font-size: 14px;
+      width: 60px;
+    
+    }
   }
 }
 
@@ -71,3 +87,4 @@
     justify-content: space-between;
   }
 }
+

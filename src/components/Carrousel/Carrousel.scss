@@ -61,4 +61,7 @@
   padding: 10px;
   color: $secondary;
   font-size: 20px;
+  @include mobile {
+    display: none;
+  }
 }

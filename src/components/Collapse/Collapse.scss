@@ -14,9 +14,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  .buttonText {
-    margin-right: auto;
+
+    .buttonText {
+      margin-right: auto;
+      font-weight: 700;
+    }
   }
 
   .CollapseContent {
@@ -94,6 +96,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    .buttonText {
+      font-weight: 700;
+    }
   }
   .rotate {
     transform: rotate(180deg);

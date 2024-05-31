@@ -8,6 +8,7 @@ export const AboutPage = () => {
       <HeroBanner
         url={banner_about}
         alt={"Bannière de la page d'accueil"}
+        className="HeroBanner--picture--About"
       />
       <div className="CollapseWrapper">
         <Collapse className="CollapseStyleAbout" menuName="Fiabilité">

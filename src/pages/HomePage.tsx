@@ -11,6 +11,7 @@ export const HomePage = () => {
         title={"Chez vous, partout et ailleurs"}
         url={bannerHomePicture}
         alt={"Bannière de la page d'accueil"}
+        className="HeroBanner--picture--Home"
       />
       <LocationCardGrid />
     </>

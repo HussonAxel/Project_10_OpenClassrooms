@@ -1,6 +1,6 @@
 import {useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import { CollapseProps } from "./Collapse.type";
 
 const Collapse: React.FC<CollapseProps> = ({ children, menuName, className }) => {
@@ -15,7 +15,7 @@ const Collapse: React.FC<CollapseProps> = ({ children, menuName, className }) =>
       <button onClick={handleCollapse} className="buttonCollapse">
         <span className="buttonText">{menuName}</span>
         <FontAwesomeIcon
-          icon={faChevronDown}
+          icon={faChevronUp}
           className={isOpen ? "faChevronDown rotate" : "faChevronDown"}
         />
       </button>
