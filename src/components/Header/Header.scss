@@ -3,7 +3,7 @@
   justify-content: space-between;
   margin: 40px 100px;
 
-    @include mobile {
+  @include mobile {
     margin: 20px;
   }
 }
@@ -19,8 +19,7 @@
   }
   @include mobile {
     gap: 25px;
-      width: 66%;
-
+    width: 66%;
   }
 }
 
@@ -40,7 +39,9 @@ li {
   font-size: 24px;
 
   @include mobile {
-    font-size: 14px;
+    font-size: 12px;
+    text-transform: uppercase;
+
   }
 
   @include tablet {

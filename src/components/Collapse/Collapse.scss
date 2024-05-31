@@ -19,6 +19,9 @@
       margin-right: auto;
       font-weight: 700;
     }
+    @include mobile {
+      width: 90%;
+    } 
   }
 
   .CollapseContent {
@@ -56,6 +59,7 @@
     margin: 0 auto;
     flex-direction: column;
   }
+
 }
 
 .CollapseWrapperLogement {
@@ -79,9 +83,6 @@
 
   .buttonCollapse {
     width: 100%;
-  }
-
-  .buttonCollapse {
     height: 50px;
     background-color: $primary;
     border: none;
@@ -100,6 +101,7 @@
     .buttonText {
       font-weight: 700;
     }
+    
   }
   .rotate {
     transform: rotate(180deg);
